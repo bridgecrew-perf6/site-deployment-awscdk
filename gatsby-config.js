@@ -11,7 +11,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-s3',
     options: {
-      bucketName: 'my-website-bucket'
+      bucketName: 'my-website-bucket',
+      acl: null
     },
     }
   ],
